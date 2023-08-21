@@ -1,0 +1,60 @@
+/*
+* Primeiro programa em JavaScript
+* Gabriel Batista Nunes
+*/
+
+//Variável const
+console.log("Olá mundo!");
+//prompt("Qual é o seu nome?")
+const VariavelA = 100;
+const VariavelB = VariavelA + 50;
+const VariavelC = VariavelA / VariavelB;
+console.log(VariavelA);
+console.log(VariavelB);
+console.log(VariavelC);
+
+//Variável let
+let numero = 5;
+console.log(numero);
+numero = 120;
+console.log(numero);
+
+//concatenar textos
+/*let nome = "Gabriel"
+let sobreNome = "Batista"
+let idade = 19;
+console.log("Olá", nome, sobreNome, "voce tem", idade, "anos");
+*/
+//booleanas
+const variavelFalsa = false;
+const variavelVerdadeira = true;
+
+console.log("Variável falsa:" + variavelFalsa);
+console.log("Variável verdadeira:" + variavelVerdadeira);
+
+//Exercício 1
+
+let nome = "Gabriel"
+let sobreNome = "Batista"
+let idade = 19;
+let estuda = true
+console.log("Olá", nome, sobreNome, "você tem", idade, "anos,", "você é estudante?", estuda);
+
+//typeof
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof estuda);
+
+let banana;
+console.log(typeof banana);
+banana = "fruta"
+console.log(typeof banana);
+const vazio = null;
+console.log(typeof vazio);
+
+//prompt
+
+nome = prompt("seu nome");
+console.log(typeof nome);
+idade = prompt("sua idade");
+console.log(typeof idade);
